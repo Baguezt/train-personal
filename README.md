@@ -114,9 +114,7 @@ footer {
 ```
 
 ---
-Siap! Nih gue tambahin bagian tugasnya ke materi tadi biar lebih lengkap dan jelas buat siswa lo 👇
 
----
 
 ## 📝 **Tugas Praktik: Desain Web Portofolio Kalian Sendiri**
 
