@@ -122,4 +122,3 @@ footer {
 
 ---
 
-Kalau lo mau, gue bisa buatin juga soal proyeknya, lengkap dengan rubrik penilaian dan instruksi. Mau sekalian?
