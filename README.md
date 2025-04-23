@@ -114,6 +114,33 @@ footer {
 ```
 
 ---
+📝 Tugas Praktik: Desain Web Portofolio Kalian Sendiri
+🎯 Tujuan:
+Melatih kreativitas dan kemampuan mendesain tampilan portofolio pribadi menggunakan HTML dan CSS.
+
+📌 Instruksi Tugas:
+Buatlah desain sederhana dari web portofolio pribadi kalian.
+
+Desain harus mencakup bagian:
+
+Header (nama dan navigasi)
+
+Tentang Saya
+
+Keahlian
+
+Proyek
+
+Kontak
+
+Desain dulu di kertas atau digital (Figma/Canva juga boleh).
+
+Buat tampilannya sekreatif mungkin (warna, layout, gaya tulisan).
+
+Jika sudah, kirimkan gambar desain tersebut ke WA saya langsung.
+
+🎨 Catatan: Fokus utama tugas ini adalah pada desain layout portofolio, belum perlu dikoding dulu.
+---
 
 ### 💡 Tips:
 - Pakai warna yang konsisten dan font yang mudah dibaca.
