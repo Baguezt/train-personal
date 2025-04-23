@@ -1,76 +1,125 @@
-# Retro Portfolio 🕹️  
+## 🧠 MATERI: **Membuat Web Portofolio Sederhana dengan HTML & CSS**
 
-**Proyek Retro Portfolio** adalah template portofolio siap pakai dengan gaya retro, dibuat khusus untuk peserta bootcamp **VS Code by Numen**.  
-*Template ini sudah 100% jadi — tinggal diunduh dan disesuaikan!*  
+### 1. 🔍 Apa itu Web Portofolio?
+Web portofolio adalah sebuah situs pribadi yang berisi informasi tentang diri lo, keahlian, pengalaman, dan proyek-proyek yang pernah lo kerjakan. Cocok banget buat promosi diri secara online.
 
 ---
 
-## 🎁 Cara Mendapatkan Proyek Ini  
-### **Untuk Semua Peserta**:  
+### 2. 🎯 Tujuan Belajar
+Setelah mempelajari materi ini, siswa diharapkan dapat:
+- Membuat halaman web portofolio sederhana
+- Menggunakan HTML untuk membuat struktur
+- Menggunakan CSS untuk mempercantik tampilan
 
-#### **Option 1: Unduh Langsung (Tanpa Git/GitHub)**  
-1. Klik tombol **`Code`** (hijau) di bagian atas repositori ini.  
-2. Pilih **`Download ZIP`**.  
-3. Ekstrak file ZIP ke folder lokal Anda.  
+---
 
-#### **Option 2: Clone dengan Git (Jika Terinstal)**  
-```bash
-git clone https://github.com/numen111104/retro-portofolio.git
+### 3. 🧱 Struktur Dasar Web Portofolio
+Biasanya terdiri dari bagian:
+1. **Header** (Nama, Navigasi)
+2. **Tentang Saya (About Me)**
+3. **Keahlian (Skills)**
+4. **Proyek (Projects)**
+5. **Kontak (Contact)**
+
+---
+
+### 4. 🧾 Contoh Struktur HTML
+
+```html
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Saya</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Nama Saya</h1>
+    <nav>
+      <a href="#about">Tentang</a>
+      <a href="#skills">Keahlian</a>
+      <a href="#projects">Proyek</a>
+      <a href="#contact">Kontak</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>Tentang Saya</h2>
+    <p>Saya adalah siswa SMK yang suka ngoding dan desain web.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Keahlian</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>Canva</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Proyek</h2>
+    <p>1. Website Profil Sekolah</p>
+    <p>2. Landing Page Produk</p>
+  </section>
+
+  <section id="contact">
+    <h2>Kontak</h2>
+    <p>Email: bagusfebriyanto19@gmail.com</p>
+  </section>
+
+  <footer>
+    <p>© 2025 bagusfebriyanto</p>
+  </footer>
+</body>
+</html>
 ```
 
 ---
 
-## 🚀 Cara Menggunakan  
-### **Tanpa VSCode/GitHub** (Hanya Editor Teks Biasa):  
-1. Buka folder proyek di editor teks apa pun (*Notepad++, Sublime Text, dll.*).  
-2. Edit file:  
-   - `index.html` → Sesuaikan konten portofolio Anda.  
-   - `style.css` → Ubah warna/font di bagian `:root`.  
-3. Simpan file, lalu buka `index.html` di browser untuk melihat hasilnya.  
+### 5. 🎨 Contoh CSS Sederhana
 
-### **Dengan VSCode (Rekomendasi)**:  
-1. Buka folder proyek di VSCode.  
-2. Gunakan ekstensi **Live Server** untuk menjalankan proyek secara real-time.  
+```css
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
 
----
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
 
-## 👨‍💻 Daftar Peserta Bootcamp  
-| Nama                             |  
-|----------------------------------|  
-| Almerullah Nabil Patu            |
-| Athallah Dimas Nugarin           |
-| Daffa Aghna Hafizha              |
-| Fadhil Atha Zharif               |
-| Guevara Nuthqi Adie Artha        |
-| Hafiz                            |
-| Ihsan                            |
-| Lubna Zahroh                     |
-| Muhammad Hanifullah Al Islam     |
-| Muhammad Putra Tegar             |
-| Muhammad Rafli Alzakzaky         |
-| Naufal Syafiq Wilfa              |
-| Najla Haura Mumtazah             |
-| Rian Fikri Hafiz                 |
-| Risha Adzkia Putri               |
-| Sulthan Aziz Suwadana            |
-| Unaisah                          |
-| Windy Widyanti                   |
-| Zahraa Hartadi                   |
-| Zaahiroh                         |
-| Bunga Reswara Ovilza             |
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+section {
+  padding: 20px;
+}
+
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+```
 
 ---
 
-## 💡 Tips Profesional  
-- Ganti placeholder gambar di folder `/assets` dengan foto/foto proyek Anda.  
-- Update metadata di `index.html` (judul, deskripsi, favicon) untuk SEO.  
-- Hosting gratis di [Netlify](https://www.netlify.com/) atau [Vercel](https://vercel.com/) dengan drag-and-drop folder proyek.  
+### 💡 Tips:
+- Pakai warna yang konsisten dan font yang mudah dibaca.
+- Gunakan gambar profil dan logo jika ada.
+- Tambahkan animasi atau efek transisi CSS untuk tampilan yang lebih keren.
 
 ---
 
-## 📜 Lisensi  
-Proyek ini terbuka untuk semua peserta bootcamp **VS Code by Numen** di bawah lisensi [MIT](LICENSE).  
-
----  
-
-✨ **Dibuat dengan cinta oleh Nu'man Nasyar MZ untuk para peserta bootcamp!** ✨  
+Kalau lo mau, gue bisa buatin juga soal proyeknya, lengkap dengan rubrik penilaian dan instruksi. Mau sekalian?
